@@ -8,3 +8,11 @@ The repository includes four materials:
 - **Tracking.ipynb**: Tracks the 4D (latitude, longitude, depth, and time) evolution of individual MHW events.
 - **No.0.MHWmetrics_from_0_to_2months_1993Jan.2020Dece.xlsx**: Example characteristic file for a single MHW event (ID = 0), used as input for the depth-rescaling step.
 - **depth-rescaling.ipynb**: Applies the depth-rescaling approach to the MHW profiles of individual MHW events.
+
+Here is the order to run the notebooks: 
+
+KNNsmooth.ipynb
+        ↓
+Tracking.ipynb
+        ↓
+depth-rescaling.ipynb + No.0.MHWmetrics_from_0_to_2months_1993Jan.2020Dece.xlsx
