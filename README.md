@@ -11,8 +11,4 @@ The repository includes four materials:
 
 Here is the order to run the notebooks: 
 
-KNNsmooth.ipynb
-        ↓
-Tracking.ipynb
-        ↓
-depth-rescaling.ipynb + No.0.MHWmetrics_from_0_to_2months_1993Jan.2020Dece.xlsx
+KNNsmooth.ipynb -> Tracking.ipynb -> depth-rescaling.ipynb + No.0.MHWmetrics_from_0_to_2months_1993Jan.2020Dece.xlsx
